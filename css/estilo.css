@@ -7,7 +7,7 @@
 body {
     font-size: 1em;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
-    background: rgb(245, 244, 244);
+    background: rgb(214, 213, 213);
 }
 
 /* Layout */
@@ -21,6 +21,37 @@ body {
 #area_logo, #area_menu {
     padding: 10px;
 }
+
+#area_principal {
+    width: 920px;
+    margin: 0 auto;
+}
+
+#area_postagens {
+    background: white;
+    width: 660px;
+    float: left;
+}
+
+#area_lateral {
+    background: white;
+    width: 240px;
+    float: right;
+}
+
+#rodape {
+    clear: both;
+    background: rgb(173, 173, 173);
+    text-align: center;
+    padding: 15px;
+}
+
+.postagem {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+
 
 /* Formatações em Geral */
 
