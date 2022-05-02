@@ -1,0 +1,50 @@
+/* Limpar formatações padrão */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: rgb(245, 244, 244);
+}
+
+/* Layout */
+
+#area_cabecalho {
+    background-color: #f7b600;
+    padding: 15px;
+    text-align: center;
+}
+
+#area_logo, #area_menu {
+    padding: 10px;
+}
+
+/* Formatações em Geral */
+
+h1 {
+    color: #4e4e4e;
+}
+
+.branco {
+    color: white;
+}
+
+/* Formatações do Menu */
+
+a {
+    text-decoration: none;
+    padding: 12px;
+}
+
+a:link, a:visited {
+    color: white;
+}
+
+a:hover {
+    color: #f7b600;
+    background-color: white;
+}
+
