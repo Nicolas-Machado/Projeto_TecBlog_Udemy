@@ -25,6 +25,7 @@ body {
 #area_principal {
     width: 920px;
     margin: 0 auto;
+    padding: 15px;
 }
 
 #area_postagens {
@@ -34,7 +35,6 @@ body {
 }
 
 #area_lateral {
-    background: white;
     width: 240px;
     float: right;
 }
@@ -52,6 +52,17 @@ body {
     background: white;
 }
 
+.conteudo_lateral {
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.postagem_lateral {
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px dotted #ccc;
+}
 
 /* Formatações em Geral */
 
@@ -59,9 +70,31 @@ h1 {
     color: #4e4e4e;
 }
 
+h2 {
+    color: #f7b600;
+}
+
+h3 {
+    color: #4e4e4e;
+    background: #ccc;
+    padding: 5px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
 .branco {
     color: white;
 }
+
+.data_postagem {
+    font-size: 0.8em;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: block;
+}
+
 
 /* Formatações do Menu */
 
@@ -70,11 +103,32 @@ a {
     padding: 12px;
 }
 
-a:link, a:visited {
+a:link, a:visited{
+    color: #f7b600;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.postagem a:link, .postagem a:visited {
+    color: white;
+    background-color: #f7b600;
+    margin-top: 10px;
+    display: block;
+    width: 70px;
+    text-align: center;
+}
+
+.postagem a:hover {
+    color: #f7b600;
+    background-color: white;
+    
+}
+
+#area_cabecalho a:link, #area_cabecalho a:visited {
     color: white;
 }
 
-a:hover {
+#area_cabecalho a:hover {
     color: #f7b600;
     background-color: white;
 }
